@@ -1,0 +1,26 @@
+{
+    "profile":{
+	"firstname": "Gregor",
+	"Lastname": "von Laszewski",
+	"e-mail": "laszewski@gmail.com",
+	"username": "gregor"
+    },
+    "cluster": {
+	"name": "myCLuster",
+	"label": "c0",
+	"provider": ["openstack",
+		     "aws",
+		     "azure",
+		     "eucalyptus"],
+	"endpoint": {
+	    "url": "https",
+	    "passwd": "secret"
+	}
+    },
+    "computer": {
+	"name": "myCLuster",
+	"label": "c0",
+	"ip": "127.0.0.1",
+	"memoryGB": 16
+    }
+}
